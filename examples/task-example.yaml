@@ -1,0 +1,28 @@
+task: organize-saved-content
+platform: xiaohongshu
+source:
+  type: album
+  name: 示例周末活动
+selection:
+  mode: first-n
+  limit: 3
+filters:
+  include: 与户外亲水活动直接相关
+  exclude: 纯徒步、普通公园、广告或其他无关内容
+fields:
+  - 导航关键词
+  - 活动攻略和注意事项
+  - 停车及费用
+  - 是否有厕所
+  - 周边饮食
+evidence_surfaces:
+  - caption
+  - images
+  - author-comments-when-needed
+  - recent-comments-when-needed
+output:
+  title: 示例亲水活动攻略
+  formats:
+    - markdown
+    - csv
+  checkpoint_after_each_source: true

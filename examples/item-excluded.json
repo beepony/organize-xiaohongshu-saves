@@ -1,0 +1,13 @@
+{
+  "order": 2,
+  "title": "示例：城市普通公园散步",
+  "url": "",
+  "author": "示例作者",
+  "published_at": "2026-08-02",
+  "decision": "exclude",
+  "decision_reason": "主要场景是普通公园散步，与亲水活动无关",
+  "media_reviewed": ["caption", "image-1"],
+  "records": [],
+  "source_notes": ["本文件为完全虚构的结构示例"],
+  "reviewed_at": "2026-08-18T10:05:00+08:00"
+}

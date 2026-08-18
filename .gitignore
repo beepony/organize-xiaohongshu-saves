@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+dist/
+build/
+*.zip
+workspace/
+project.json
+items.json
+report.md
+included.csv
+excluded.csv

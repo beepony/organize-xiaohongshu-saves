@@ -1,0 +1,45 @@
+{
+  "order": 1,
+  "title": "示例：周末溪边活动记录",
+  "url": "",
+  "author": "示例作者",
+  "published_at": "2026-08-01",
+  "decision": "include",
+  "decision_reason": "内容与亲水活动直接相关",
+  "media_reviewed": ["caption", "image-1", "image-2"],
+  "records": [
+    {
+      "name": "示例溪谷",
+      "fields": {
+        "导航关键词": {
+          "value": "示例游客中心",
+          "evidence": "图片 1",
+          "confidence": "confirmed"
+        },
+        "活动攻略和注意事项": {
+          "value": "雨后水位可能上涨，儿童需由成人陪同",
+          "evidence": "正文",
+          "confidence": "confirmed"
+        },
+        "停车及费用": {
+          "value": "原帖未提及",
+          "evidence": "已检查正文和图片",
+          "confidence": "not-mentioned"
+        },
+        "是否有厕所": {
+          "value": "游客中心附近有厕所",
+          "evidence": "图片 2",
+          "confidence": "confirmed"
+        },
+        "周边饮食": {
+          "value": "原帖未提及",
+          "evidence": "已检查正文和图片",
+          "confidence": "not-mentioned"
+        }
+      },
+      "notes": ["本文件为完全虚构的结构示例"]
+    }
+  ],
+  "source_notes": [],
+  "reviewed_at": "2026-08-18T10:00:00+08:00"
+}
